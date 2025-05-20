@@ -21,8 +21,9 @@ number_of_wallets = 5
 
 
 def generate_password(length=32):
-    chars = string.ascii_letters + string.digits + string.punctuation
-    return ''.join(random.choice(chars) for _ in range(length))
+    characters = string.ascii_letters + string.digits + string.punctuation
+    password = ''.join(random.choice(characters) for i in range(length))
+    return password
 
 def create_metamask_wallet(wallet_number):
     mnemonic = Bip39MnemonicGenerator().FromWordsNumber(12)
