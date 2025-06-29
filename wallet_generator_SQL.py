@@ -9,7 +9,7 @@ from psycopg2 import sql
 
 DB_NAME = 'wallet'
 DB_USER = 'postgres'
-DB_PASSWORD = 'Mafate10'
+DB_PASSWORD = 'XXXXXX' #if sth is wonrg here you can replace
 DB_HOST = 'localhost'
 DB_PORT = '5432'
 
